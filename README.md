@@ -1,2 +1,2 @@
-# biblioteca_phpframex
-Tarea01 para el curso EIF507
+# PHP Framex
+A minimal PHP framework
