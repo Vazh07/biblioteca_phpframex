@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <title>{{title}}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/png" href="/css/icon.png">
 </head>
 <body>
  <div class="container">
@@ -20,16 +20,16 @@
         <th>Field</th>
         <th>Books</th>
       </tr>
-      </thead><tbody>
-        {{#authors}}
-        <tr><td><a href="/author/{{id}}"/>{{author}}</a></td>
-          <td>{{nationality}}</td>
-          <td>{{birth_year}}</td>
-          <td>{{fields}}</td>
-          <td><ul>{{#books}}<li><a href="/book/{{book_id}}">{{book_name}}</a></li>{{/books}}</ul></td></tr>
-        {{/authors}}</tbody>
-      </table>
-    </div>
+    </thead><tbody>
+      {{#authors}}
+      <tr><td><a href="/author/{{id}}"/>{{author}}</a></td>
+        <td>{{nationality}}</td>
+        <td>{{birth_year}}</td>
+        <td>{{fields}}</td>
+        <td><ul>{{#books}}<li><a href="/book/{{book_id}}">{{book_name}}</a></li>{{/books}}</ul></td></tr>
+      {{/authors}}</tbody>
+    </table>
   </div>
+</div>
 </div>
 </body>

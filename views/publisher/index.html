@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <title>{{title}}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../css/normalize.css">
-  <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/png" href="/css/icon.png">
 </head>
 <body>
  <div class="container">
@@ -20,17 +20,17 @@
         <th>genre</th>
         <th>books_title</th>
       </tr>
-      </thead><tbody>
-        {{#publishers}}
-        <tr><td><a href="/publisher/{{id}}"/>{{publisher}}</a></td>
-          <td>{{country}}</td>
-          <td>{{founded}}</td>
-          <td>{{genre}}</td>
-          <td><ul>{{#books}}<li><a href="/book/{{book_id}}">{{name}}</a></li>{{/books}}</ul></td></tr>
-        {{/publishers}}</tbody>
-      </table>
-    </div>
+    </thead><tbody>
+      {{#publishers}}
+      <tr><td><a href="/publisher/{{id}}"/>{{publisher}}</a></td>
+        <td>{{country}}</td>
+        <td>{{founded}}</td>
+        <td>{{genre}}</td>
+        <td><ul>{{#books}}<li><a href="/book/{{book_id}}">{{name}}</a></li>{{/books}}</ul></td></tr>
+      {{/publishers}}</tbody>
+    </table>
   </div>
-    <a class="button button-primary" href="/">Back</a>
+</div>
+<a class="button button-primary" href="/">Back</a>
 </div>
 </body>
