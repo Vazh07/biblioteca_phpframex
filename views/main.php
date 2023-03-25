@@ -4,11 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Main Page</title>
-	<link rel="stylesheet" type="text/css" href="/css/style.css">	 
+	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	<link rel="stylesheet" type="text/css" href="/css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="/css/skeleton.css">
 	<link rel="icon" type="image/png" href="/css/icon.png">
 </head>
 <body>
-	<h1>Page</h1>
+	<h1>Main Page</h1>
 	<ul>
 		<li><a href="/main">Main</a></li>
 		<li><a href="/book">Books</a></li>

@@ -1,7 +1,6 @@
     table {
       font-family: "Lucida Console", "Courier New", monospace;
       border-collapse: collapse;
-      width: 50%;
     }
 
     td, th {
@@ -17,7 +16,6 @@
     div {
       display: inline-block;
       position: relative;
-      width: 100%;
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
